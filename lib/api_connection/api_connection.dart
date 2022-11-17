@@ -1,6 +1,6 @@
 class API
 {
-  static const hostConnect = "http://192.168.0.175/api_nurse_app";
+  static const hostConnect = "http://192.168.0.82/api_nurse_app";
   static const hostConnectUser = "$hostConnect/user"; //for user folder inside xampp htdocs
 
   //signup user

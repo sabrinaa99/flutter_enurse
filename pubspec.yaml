@@ -39,6 +39,11 @@ dependencies:
   http:
   fluttertoast:
   get: ^4.6.5
+  shared_preferences: ^2.0.15
+  qr_code_scanner: ^1.0.1
+  qr_flutter: ^4.0.0
+  webview_flutter: ^3.0.4
+
 
 dev_dependencies:
   flutter_test:

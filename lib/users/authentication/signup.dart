@@ -5,8 +5,8 @@ import 'package:flutter_php/users/authentication/login_screen.dart';
 
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
-import 'api_connection/api_connection.dart';
-import 'users/model/user.dart';
+import '../../api_connection/api_connection.dart';
+import '../model/user.dart';
 
 
 

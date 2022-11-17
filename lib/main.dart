@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_php/signup.dart';
+import 'package:flutter_php/profileview.dart';
+
+// import 'package:flutter_php/qr_scanner.dart';
+// import 'package:flutter_php/users/authentication/login_screen.dart';
 
 
 void main() {
@@ -20,23 +23,9 @@ class MyApp extends StatelessWidget {
       ),
       home: FutureBuilder(
         builder:(context, dataSnapShot){
-          return SignupScreen();
+          return ProfileView();
         }),
     );
   }
 }
 
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-
-//   // This widget is the root of your application.
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       title: 'Flutter Login Page',
-//       home: SignupScreen(),
-//       debugShowCheckedModeBanner: false,
-      
-//     );
-//   }
-// }
