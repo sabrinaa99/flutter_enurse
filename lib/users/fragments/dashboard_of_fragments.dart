@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_php/users/fragments/nav_drawer.dart';
+
 
 class DashboardOfFragments extends StatelessWidget {
   const DashboardOfFragments({super.key});
@@ -9,6 +11,12 @@ class DashboardOfFragments extends StatelessWidget {
       appBar: AppBar(
         title: Text("Dashboard"),
       ),
+      body: Stack(
+        children: <Widget>[
+          Container(color: selectedColor,),
+          CollapsingNavigationDrawer()
+        ],
+      )
     );
   }
 }
